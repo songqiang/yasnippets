@@ -1,0 +1,5 @@
+#name : do { ... } while (...)
+#contributor: Song Qiang <tsiangsung@gmail.com>
+#key: szt
+# --
+size_t$0
