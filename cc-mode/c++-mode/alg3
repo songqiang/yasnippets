@@ -1,5 +1,5 @@
 # name : std::algorithm(arg1, arg2, arg3)
 # group:  stl
 # --
-${1:$$(yas/choose-value '("find" "copy" "fill" "transform" "accumulate" "count" "lower_bound" "upper_bound" "partial_sum"))}(${2:v}.begin(), $2.end(), ${3:arg}); 
+${1:$$(yas/choose-value '("find" "copy" "fill" "transform" "accumulate" "count" "lower_bound" "upper_bound" "partial_sum" "find_if" "count_if"))}(${2:v}.begin(), $2.end(), ${3:arg}); 
 $0
