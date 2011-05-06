@@ -4,7 +4,7 @@
 # group: math
 # name: \begin{align} ... \end{align}
 # --
-\begin{${1:$$(yas/choose-value '("align" "align*" "multline" "gather" "subequations"))}}
+\begin{${1:$$(yas/choose-value '("align" "align*" "multline" "gather" "subequations" "split"))}}
 \label{${2:"waiting for reftex-label call..."$(unless yas/modified-p (reftex-label nil 'dont-insert))}}
 $0
 \end{$1}
